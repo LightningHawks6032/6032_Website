@@ -1,0 +1,40 @@
+body {
+				font-family: serif;
+			}
+
+
+			nav {
+				background-color: #0a1838;
+				height: 7vw;
+				color: white; 
+			}
+
+
+			h1 {
+				font-family: monospace;
+				font-size: 3.5vw;
+				padding: 1.5vw 0 0 1.5vw;
+				color: white;
+				float: left;
+			}
+
+
+			ul {
+				text-align: right;
+				padding-top: 3vw;
+				padding-right: 1.5vw;
+			}
+
+
+			li {
+				display: inline;
+				padding: 1.5vw; 
+				font-size: 1.7vw;
+			}
+
+			a {
+				color: white;
+				text-decoration: none;
+			}
+			
+			a:hover { color:lightblue; }
