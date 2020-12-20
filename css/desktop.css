@@ -1,0 +1,244 @@
+@charset "UTF-8";
+/* CSS Document */
+
+* {
+	box-sizing: border-box;
+}
+
+body, html {
+	height: 100%;
+	margin: 0;
+	font: 400 15px/1.8;
+	color: #777;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+header {
+	width: 100%;
+	height: 9vw;
+	background-color: white;
+}
+
+header h1 {
+	font-size: 3vw;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	color: #173552;
+	font-weight: 200;
+	text-align: center;
+	padding-top: 2vw;
+}
+
+header h2 {
+	font-size: 1.8vw;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	color: #334E68;
+	font-weight: 100;
+	text-align: center;
+	padding-top: 1vw;
+	padding-bottom: 10vw;
+}
+
+/*END OF title CSS*/
+
+#mobilehero {
+	display: none;
+}
+
+/*Parallax Scrolling credit to ww3schools.com*/
+.bgimg-1, .bgimg-2, .bgimg-3 {
+	position: relative;
+	opacity: 0.65;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+/*click to scroll button*/
+.caption {
+	position: absolute;
+	left: 0;
+	top: 40%;
+	height: 100px;
+	width: 100%;
+	text-align: center;
+	color: #000;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+}
+
+.caption span.border {
+	background-color: #2F2F2F;
+	color: #fff;
+	padding: 1vw;
+	font-size: 5vw;
+	letter-spacing: 10px;
+}
+
+.border a {
+	color: white;
+	text-decoration: underline;
+}	
+
+/*end of click to scroll button*/
+
+/*about us + schedule info*/
+.info{
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+}
+
+.info p {
+	line-height: 1.5;
+	font-size: 1.5vw;
+	text-align: left;
+}
+
+#about {
+	height: 2vw;
+}
+
+#aboutus h3 {
+	letter-spacing: 5px;
+	text-transform: uppercase;
+	font-size: 2.5vw;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	color: #111;
+	text-align:center; 
+}
+
+#aboutus {
+	color: #777; 
+	background-color:white; 
+	text-align:center; 
+	padding: 3vw 5.5vw; 
+}
+
+#aboutus p a {
+	color: #6988AB;
+	text-decoration: none;
+}
+
+#aboutus p a:hover {
+	text-decoration: underline;
+}
+
+#schedule {
+	height: 3vw; 
+	background-color: #454B50;
+}
+
+#schedule_ {
+	color:#ddd;
+	background-color:#454B50;
+	padding: 3vw 5.5vw;
+	text-align: justify;
+}
+
+#schedule_ > h3 {
+	text-align:center; 
+	font-size: 2.5vw; 
+	color: white;
+	letter-spacing: 5px;
+}
+
+#schedule_ p{
+	padding-top: 3vw;
+	text-align: center;
+	font-size: 2vw;
+}
+
+/*end of about us + schedule info*/
+
+/*Sponsors section*/
+
+#sponsors img {
+    display: inline-flex;
+    height: 4vw;
+    float: none;
+    margin-top: 10px;
+	padding-right: 5%;
+	text-align: center;
+	padding-left: 2.3vw;
+}
+
+#companies {
+	padding-bottom: 3vw;
+
+}
+
+#sponsors img:hover {
+    opacity: 0.6;
+}
+
+#sponsors p {
+	color: #585757;
+	font-size: 2.5vw;
+	padding-bottom: 3.8vw;
+	text-align: center;
+	padding-top: 3vw;
+}
+
+#sponsor-title {
+	color:#777;
+	background-color:#ffffff;
+	text-align:left;
+	padding: 3vw 4vw;
+}
+
+
+/*End of sponsors section*/
+
+
+/*footer*/
+.links {
+	display: flex;
+	justify-content: center;
+}
+
+
+#links a {
+	width: 8vw;
+	margin: 1vw;
+	text-align: center;
+	font-size: 1.5vw;
+	padding-top: 2vw;
+	padding-bottom: 0.5vw;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	color: white;
+	text-decoration: none;
+}
+
+#icons > a {
+	width: 8vw;
+	margin: 1vw;
+	text-align: center;
+	font-size: 1.5vw;
+	padding-top: 0.5vw;
+	padding-bottom: 1vw;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	color: white;
+	text-decoration: none;
+}
+
+hr {
+	width: 60%;
+	border: 1px solid white;
+}
+
+footer {
+	background-color: #003366;
+}
+
+#footer {
+	text-align: center;
+	background-color: #011F3D;
+	padding-top: 1vw;
+	padding-bottom: 1vw;
+	color: #A9A9A9;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+}
+
+/*end of footer*/
+

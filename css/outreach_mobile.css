@@ -1,0 +1,190 @@
+@charset "UTF-8";
+/* CSS Document */
+* {
+	box-sizing: border-box;
+}
+
+body, html {
+	height: 100%;
+	margin: 0;
+	font: 400 15px/1.8;
+	color: #777;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+header {
+	width: 100%;
+	height: 21vw;
+	background-color: white;
+}
+
+header h1 {
+	font-size: 8vw;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	color: #173552;
+	font-weight: 200;
+	text-align: center;
+	padding-top: 20px;
+}
+
+header h2 {
+	font-size: 5vw;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	color: #334E68;
+	font-weight: 100;
+	text-align: center;
+	padding-top: 8px;
+}
+
+/*END OF title CSS*/
+
+
+
+/*click to scroll button*/
+
+.caption {
+	display: none;
+}
+
+/*end of click to scroll button*/
+
+/*about us + schedule info*/
+.info{
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+}
+
+.info p {
+	line-height: 1.5;
+	text-align: left;
+	font-size: 4vw;
+}
+
+.info ul{
+	padding-left: 4vw;
+}
+
+.info ul li {
+	list-style-type: circle;
+	line-height: 1.5;
+	font-size: 4vw;
+	text-align: left;
+	
+}
+
+#about {
+	height: 2vw;
+}
+
+#outreach h3 {
+	letter-spacing: 5px;
+	text-transform: uppercase;
+	font-size: 5vw;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	color: #111;
+	text-align:center; 
+}
+
+#outreach {
+	color: #777; 
+	background-color:white; 
+	text-align:center; 
+	padding: 3vw 5.5vw; 
+}
+
+#events {
+	display: none;
+}
+
+.mobile_header {
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-size: 5vw;
+	text-align: center;
+	color: white;
+	padding-bottom: 2vw;
+	background-color: #454B50;
+	padding-top: 2vw;
+}
+
+#camp {
+	color:#777;
+	background-color: white;
+	padding: 3vw 5.5vw;
+	text-align: justify;
+}
+
+#camp > h3 {
+	display: none;
+}
+
+#camp p {
+	padding-top: 2vw;
+	font-size: 4vw;
+}
+
+/*end of about us + schedule info*/
+
+
+/* Turn off parallax scrolling for tablets and phones*/
+
+@media only screen and (max-device-width: 1024px) {
+	.bgimg-1, .bgimg-2, .bgimg-3 {
+		background-attachment: scroll;
+	}
+}
+
+/*footer*/
+
+.links {
+	display: flex;
+	justify-content: center;
+}
+
+
+#links a {
+	margin: 2vw;
+	padding-top: 2vw;
+	text-align: center;
+	font-size: 4vw;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	color: white;
+	text-decoration: none;
+}
+
+#icons > a {
+	margin: 2vw;
+	padding-bottom: 2vw;
+	text-align: center;
+	font-size: 4vw;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	color: white;
+	text-decoration: none;
+}
+
+#icons img {
+	width: 6vw;
+}
+
+hr {
+	width: 60%;
+	border: 0.2vw solid white;
+}
+
+footer {
+	background-color: #003366;
+}
+
+#footer {
+	text-align: center;
+	background-color: #011F3D;
+	padding-top: 3vw;
+	padding-bottom: 3vw;
+	color: #A9A9A9;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-size: 2.5vw;
+}
+
+/*end of footer*/
+

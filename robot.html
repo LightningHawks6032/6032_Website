@@ -1,0 +1,147 @@
+<!doctype html>
+<html>
+<head>
+<title>Lightning Hawks 6032 | Robot</title>
+	<!--meta tag info below-->
+	<meta charset="UTF-8">
+	<meta name="keywords" content="Robotics, Natick, RoboNatick, FTC, Natick High School">
+	<meta name="description" content="RoboNatick Team 6032, Lightning Hawks.">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<!--link to all css files below-->
+<link href="css/robot_desktop.css" rel="stylesheet" media="only screen and (min-device-width:481px)">
+<link href="css/robot_mobile.css" rel="stylesheet" media="only screen and (max-device-width:480px)">
+<link href="css/navbar.css" rel="stylesheet" type="text/css">
+<link href="css/reset.css" rel="stylesheet" type="text/css">	
+<link rel="icon" type="image/png" href="images/logo.png">
+
+	<style>
+		.bgimg-1 {
+			background-image: url("images/build team.png");
+		}
+	
+		.bgimg-2 {
+			background-image: url("images/robot design.png");
+		}
+	</style>
+
+</head>
+
+<body>
+	<header> 
+		<h1>LIGHTNING HAWKS</h1>
+		<h2>Team 6032</h2>
+	</header>
+
+<!--responsive nav bar, credit to Jones Joseph on codepen-->
+
+	<div class="nav" id="navbar">
+	  <input type="checkbox" id="nav-check">
+	  <div class="nav-btn">
+		<label for="nav-check">
+		  <span></span>
+		  <span></span>
+		  <span></span>
+		</label>
+	  </div>
+  
+	  <div class="nav-links">
+		<a href="index.html">Home</a>
+		<a href="outreach.html">Outreach</a>
+		<a href="robot.html">Robot</a>
+		<a href="contact.html">Contact</a>
+	  </div>
+	</div>
+	
+	<!--end of nav bar-->
+	<div class="mobile">
+		<img src="images/build team.png" alt="Team" style="width: 100%;">
+	</div>
+	
+	<div class="bgimg-1">
+		
+	</div>
+		
+	<div class="info">
+		<div id="cad">
+			<h3>Why do we use CAD?</h3> <br>
+			<p>
+				We use computer aided design or CAD as a way to plan out our robot while others can build on our physical robot. It is important to us to be able to clearly translate our ideas throughout the team and show a builder what they are supposed to make. CAD has many advantages but the biggest feature we use it for is the design capabilities it holds, we start by making a 3D model of the robot using custom parts and models of Actobotics parts, we use these components to put together our main robot and different components in organized files. Once the 3D model of our components is finished other members can use the model to look around, this takes the pressure of the designers that need to explain how to build it. Our team also really likes to use 3D printed and CNC parts for the robot, they allow us to put any custom piece wherever we want, this opens up any design limitations. Our club has invested in a CNC milling machine and 3D printers that we use to create our parts, our CAD software, Fusion 360, helps us create a mesh to 3D print for our robot and create toolpaths for our CNC milling machine to use.     
+			</p>
+		</div>
+	</div>
+	
+	<div class="bgimg-2">
+		<div class="caption">
+			<span class="border"><a href="#build">DESIGN AND ROBOT COMPONENTS</a></span>
+		</div>
+	</div>
+	
+	<div class="mobile_header">
+		<h4>
+			DESIGN AND ROBOT COMPONENTS
+		</h4>
+	
+	</div>
+	
+	<div class="mobile">
+		<img src="images/robot design.png" alt="Team" style="width: 100%;">
+	</div>
+	
+	<div class="info">
+		<div style="position:relative;">
+			<div id="build">
+					<h3 style="font-size: 2vw; color: white; "></h3>
+					<p> <!--add info after building--> INFORMATION TO BE ADDED LATER</p>
+				
+			 </div>
+		</div>
+	</div>
+	
+	
+	
+
+	<!--start of footer-->
+	<footer>
+		<div class="links" id="links">
+		<a href="index.html">About</a>
+		<!--<a href="members.html">Members</a>-->
+		<a href="outreach.html">Outreach</a>
+		<a href="robot.html">Robot</a>
+		<a href="contact.html">Contact</a>
+		</div>
+
+		<hr>
+
+		<div class="links" id="icons">
+	<!-- image credits to iconfinder.com-->
+		<a href="https://www.youtube.com/channel/UCan7qpP0HAIzIPg4MYEVXow" target="_blank"><img src="images/youtube_1.png" alt="Youtube"></a>
+		<a href="mailto:lightninghawks6032@gmail.com" target="_blank"><img src="images/gmail_1.png" alt="Gmail"></a>
+		<a href="https://twitter.com/6032Hawks" target="_blank"><img src="images/twitter_1.png" alt="Twitter"></a>
+		<!--<a href="https://github.com/LightningHawks6032" target="_blank"><img src="images/github_1.png" alt="Github"></a>-->
+		<a href="https://www.instagram.com/lightning_hawks_6032/" target="_blank"><img src="images/instagram_1.png" alt="Instagram"></a>
+		</div>
+
+	</footer>
+
+    <p id="footer">Website Design and Content Copyright © 2020-2021 Team 6032 Lightning Hawks.&nbsp;All Rights Reserved.</p>
+	
+	<script>
+window.onscroll = function() {myFunction()};
+
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+</script>
+	
+	
+</body>
+
+</html>

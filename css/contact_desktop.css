@@ -1,0 +1,149 @@
+@charset "UTF-8";
+/* CSS Document */
+* {
+	box-sizing: border-box;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+}
+
+
+body, html {
+	height: 100%;
+	margin: 0;
+	font: 400 15px/1.8;
+	color: #777;
+	background-color: #dfdfdf;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+header {
+	width: 100%;
+	height: 9vw;
+	background-color: white;
+}
+
+header h1 {
+	font-size: 3vw;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	color: #173552;
+	font-weight: 200;
+	text-align: center;
+	padding-top: 2vw;
+}
+
+header h2 {
+	font-size: 1.8vw;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	color: #334E68;
+	font-weight: 100;
+	text-align: center;
+	padding-top: 1vw;
+	padding-bottom: 10vw;
+}
+
+/*END OF title CSS*/
+
+
+.contact-us-title > h1 {
+	text-align: center;
+	padding: 3vw 0 0.1vw 0;
+	font-size: 2.5vw;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	color: #073366;
+	
+}
+
+
+.contact-form {
+	padding-left: 30vw;
+	padding-top: 3vw;
+	padding-bottom: 4vw;
+}
+
+
+.form-control {
+	width: 40vw;
+	background: transparent;
+	border: none;
+	border-bottom: 0.1vw solid gray;
+	color: #073366;
+	font-size: 1.3vw;
+	margin-bottom: 2vw;
+}
+
+
+input {
+	height: 3vw;
+}
+
+form > .submit {
+	background: #073366;
+	border-color: transparent;
+	color: #fff;
+	font-size: 1.5vw;
+	letter-spacing: 0.2vw;
+	height: 3vw;
+	margin-top: 2vw;
+}
+
+
+
+form > .submit:hover {
+	background-color: #094488;
+	cursor: pointer;
+}
+
+
+
+
+/*footer*/
+.links {
+	display: flex;
+	justify-content: center;
+}
+
+#links a {
+	width: 8vw;
+	margin: 1vw;
+	text-align: center;
+	font-size: 1.5vw;
+	padding-top: 2vw;
+	padding-bottom: 0.5vw;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	color: white;
+	text-decoration: none;
+}
+
+#icons > a {
+	width: 8vw;
+	margin: 1vw;
+	text-align: center;
+	font-size: 1.5vw;
+	padding-top: 0.5vw;
+	padding-bottom: 1vw;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	color: white;
+	text-decoration: none;
+}
+
+hr {
+	width: 60%;
+	border: 1px solid white ;
+}
+
+footer {
+	background-color: #003366;
+}
+
+#footer {
+	text-align: center;
+	background-color: #011F3D;
+	padding-top: 1vw;
+	padding-bottom: 1vw;
+	color: #A9A9A9;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+}
+
+/*end of footer*/

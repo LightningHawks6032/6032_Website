@@ -1,0 +1,29 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+header {
+	width: 100%;
+	height: 21vw;
+	background-color: white;
+}
+
+header h1 {
+	font-size: 8vw;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	color: #173552;
+	font-weight: 200;
+	text-align: center;
+	padding-top: 20px;
+}
+
+header h2 {
+	font-size: 5vw;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	color: #334E68;
+	font-weight: 100;
+	text-align: center;
+	padding-top: 8px;
+}
+
+/*END OF title CSS*/

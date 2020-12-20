@@ -1,0 +1,77 @@
+@charset "UTF-8";
+/* CSS Document */
+
+header {
+	width: 100%;
+	height: 7vw;
+	background-color: white;
+}
+
+header h1 {
+	font-size: 3vw;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	color: #173552;
+	font-weight: 200;
+	text-align: center;
+	padding-top: 1vw;
+}
+
+header h2 {
+	font-size: 1.8vw;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	color: #334E68;
+	font-weight: 100;
+	text-align: center;
+	padding-top: 0.7vw;
+}
+
+/*END OF title CSS*/
+#container {
+  position: relative;
+  text-align: center;
+  color: black;
+}
+
+#container p {
+	position: absolute;
+	 top: 10vw;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-size: 3vw;
+	padding-left: 1vw;
+	padding-right: 1vw;
+	background-color: rgba(70,70,70,0.54);
+}
+
+#container img {
+	opacity: 0.8;
+}
+
+
+
+
+
+
+
+
+
+
+
+#footer {
+    background-color: var(--lightning_hawks_gray);
+    font-size: 1em;
+    padding-top: 1em;
+    padding-left: 1em;
+    padding-bottom: 0%;
+    margin-bottom: 1em;
+    height: 2em;
+    position: absolute;
+    text-align: center;
+    width: 100.3%;
+    margin-left: -2%;
+    background-image: radial-gradient(#fff 10%, transparent 10%),
+	radial-gradient(#fff 10%, transparent 10%);
+	background-size: 30px 30px;
+	background-position: 0 0, 15px 15px;
+    font-size: 10px;
+    font-weight: lighter;
+}
